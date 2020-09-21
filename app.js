@@ -51,7 +51,7 @@ connect();
 
 // app.use(fileMiddleware.single("goods"));
 // telegram();
-
+app.get('/', (req, res) => { res.send('Hello from Express!')
 app.use("/auth", routerAuth);
 app.use("/", routerItem);
 app.use("/item", routerItem);
