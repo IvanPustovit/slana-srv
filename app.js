@@ -32,11 +32,12 @@ app.use(express.json());
 app.use(helmet());
 app.use(morgan());
 app.use(
-  cors({
-    credentials: true,
-    origin: ["http://localhost:3000"],
-    optionsSuccessStatus: 200,
-  })
+  cors()
+  //   {
+  //   credentials: true,
+  //   origin: ["http://localhost:3000"],
+  //   optionsSuccessStatus: 200,
+  // }
 );
 connect();
 
