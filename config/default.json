@@ -1,0 +1,4 @@
+{
+  "port": 3010,
+  "jwtSecret": "hello Slana"
+}
